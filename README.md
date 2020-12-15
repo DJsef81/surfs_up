@@ -19,12 +19,35 @@ We then used Flask, which let me display my results in a webpage for other poten
 Afterwards, Avey requested temperature data for the months of June and December in Oahu, in order to determine if the surf and ice cream shop business is sustainable year-round. Below are the results of that analysis. 
 
 
-# RESOURCES
+## RESOURCES
 - climate_analysis.ipynb
 - hawaii.sqlite
 
-# SOFTWARE 
+## SOFTWARE 
 - python 3.8.3
 - jupyter-notebook 6.1.4
 - VS Code
 - Flask 1.1.2
+
+# RESULTS
+![](June_Temps.png) 
+![](Dec_Temps.png)
+
+* The mean or average temperature of June is 74.94 and December is 71.04, a difference of only 3.9 degrees. 
+* The lowest temperature for June is 64 and December is 56, a difference of 8 degrees. 
+* The max temperature for June is 85 and December is 83, a difference of 2 degrees. 
+
+# SUMMARY
+
+The data for December temperatures is not complete as there were 1700 data counts in June but only 1517 counts in December, so it is recommended that if possible the weather data from the 183 missing sites be found and added to be sure the missing data doesn't greatly affect the stats for December. 
+
+There is not a marked difference in degrees between the two months at the higher temperature ranges.
+
+There is a much greater difference in degrees beteewn the two months at the lower temperature readings. This is especially signifcant when you compare the minimum temperatures for both months and the temperatures at the 25th percentile.
+
+Other data of interest that would be helpful to know for our business venture are tourism numbers as well as surfing statistics, both of which could provide a clearer picture of possible risks involved with 
+
+In addition to the previous queries, I have also provided below two additional queries for June and December for percipitation for the years 2010 to 2017.
+
+![](Jun_Prcp.png)
+![](Dec_Prcp.png)
